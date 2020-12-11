@@ -1,0 +1,36 @@
+#map {
+    border: solid;
+    width: 2000px;
+    height: 1000px;
+    border-color: black;
+}
+
+.station {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.line {
+  border:solid;
+  height: 10px;
+  border-color: blue;
+  border-radius: 10px;
+  background-color: blue;
+  position: absolute;
+}
+.demo { 
+  width: 100px;
+  left: 16px;
+  top: 16px;
+  transform: 
+    rotate(45deg);
+  transform-origin: 8px;
+}
+.demo02 {
+  left:11px;
+}
